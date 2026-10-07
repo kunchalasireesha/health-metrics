@@ -34,7 +34,7 @@ public class HealthMetric {
         this.heartRate = heartRate;
         this.systolicBP = systolicBP;
         this.diastolicBP = diastolicBP;
-        this.timestamp = new java.time.LocalDateTime.now().toString();
+        this.timestamp = java.time.LocalDateTime.now().toString();
     }
     
     // Getters and Setters
